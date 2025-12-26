@@ -5,7 +5,7 @@ import heroPain from "@/assets/hero-pain.jpg";
 import { useState } from "react";
 
 // TODO: Substitua este link pelo link do seu checkout
-const CHECKOUT_URL = "#pricing";
+const CHECKOUT_URL = "https://checkout-despertardigestivo.vercel.app/";
 
 const CTAButton = ({ 
   children, 
