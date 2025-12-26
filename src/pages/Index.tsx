@@ -364,20 +364,25 @@ const Index = () => {
             </p>
             
             <div className="card-glass rounded-2xl p-8 md:p-10 max-w-xl mx-auto section-glow">
-              <div className="mb-6">
+              <div className="mb-6 flex justify-center">
                 <img 
                   src={productMockup} 
                   alt="Despertar Digestivo" 
-                  className="max-w-xs mx-auto"
+                  className="w-48 md:w-64 lg:max-w-xs mx-auto object-contain"
                 />
               </div>
               
               <h3 className="font-display text-2xl font-bold mb-2">
                 Despertar Digestivo – Drink Evacuador
               </h3>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-muted-foreground mb-4">
                 Receita natural + Modo de preparo + Dicas de uso + Bônus
               </p>
+              
+              <div className="mb-6 flex items-center justify-center gap-3">
+                <span className="text-xl text-muted-foreground line-through">650Mt</span>
+                <span className="text-3xl md:text-4xl font-bold text-accent">250Mt</span>
+              </div>
               
               <CTAButton className="w-full">
                 Quero Experimentar o Despertar Digestivo
