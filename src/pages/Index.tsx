@@ -405,7 +405,7 @@ const Index = () => {
 
               <div className="mb-6 flex items-center justify-center gap-3">
                 <span className="text-xl text-muted-foreground line-through">650Mt</span>
-                <span className="text-3xl md:text-4xl font-bold text-accent">250Mt</span>
+                <span className="text-3xl md:text-4xl font-bold text-accent">249Mt</span>
               </div>
 
               <CTAButton className="w-full" href={CHECKOUT_URL}>
