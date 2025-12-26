@@ -4,11 +4,42 @@ import intestinoComparacao from "@/assets/intestino-comparacao.webp";
 import heroPain from "@/assets/hero-pain.jpg";
 import { useState } from "react";
 
-const CTAButton = ({ children, className = "" }: { children: React.ReactNode; className?: string }) => (
-  <button className={`btn-cta px-8 py-5 rounded-xl text-lg md:text-xl font-bold text-accent-foreground uppercase tracking-wide ${className}`}>
-    {children}
-  </button>
-);
+// TODO: Substitua este link pelo link do seu checkout
+const CHECKOUT_URL = "#pricing";
+
+const CTAButton = ({ 
+  children, 
+  className = "", 
+  onClick,
+  href
+}: { 
+  children: React.ReactNode; 
+  className?: string;
+  onClick?: () => void;
+  href?: string;
+}) => {
+  if (href) {
+    return (
+      <a 
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`btn-cta inline-block px-8 py-5 rounded-xl text-lg md:text-xl font-bold text-accent-foreground uppercase tracking-wide text-center ${className}`}
+      >
+        {children}
+      </a>
+    );
+  }
+  
+  return (
+    <button 
+      onClick={onClick}
+      className={`btn-cta px-8 py-5 rounded-xl text-lg md:text-xl font-bold text-accent-foreground uppercase tracking-wide ${className}`}
+    >
+      {children}
+    </button>
+  );
+};
 
 const BenefitItem = ({ children }: { children: React.ReactNode }) => (
   <div className="flex items-start gap-4 group">
@@ -70,7 +101,9 @@ const Index = () => {
             </p>
             
             <div className="pt-6 animate-fade-up" style={{ animationDelay: '0.4s' }}>
-              <CTAButton>Quero Aprender a Receita Agora</CTAButton>
+              <CTAButton onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}>
+                Quero Aprender a Receita Agora
+              </CTAButton>
               <p className="mt-4 text-sm text-muted-foreground">
                 Acesso imediato após confirmação
               </p>
@@ -348,7 +381,7 @@ const Index = () => {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-20 md:py-28 relative overflow-hidden">
+      <section id="pricing" className="py-20 md:py-28 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-background via-primary/5 to-background" />
         
         <div className="container relative z-10">
@@ -384,7 +417,7 @@ const Index = () => {
                 <span className="text-3xl md:text-4xl font-bold text-accent">250Mt</span>
               </div>
               
-              <CTAButton className="w-full">
+              <CTAButton className="w-full" href={CHECKOUT_URL}>
                 Quero Experimentar o Despertar Digestivo
               </CTAButton>
               
