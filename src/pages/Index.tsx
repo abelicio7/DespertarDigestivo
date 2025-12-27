@@ -175,7 +175,7 @@ const Index = () => {
               </h2>
 
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Uma <strong className="text-foreground">receita natural simples</strong>, desenvolvida para ajudar seu
+                Uma <strong className="text-foreground">bebida natural simples</strong>, desenvolvida para ajudar seu
                 intestino a funcionar de forma mais regular, sem agressividade e sem dependência de medicamentos.
               </p>
 
