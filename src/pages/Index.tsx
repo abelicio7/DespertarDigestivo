@@ -104,7 +104,7 @@ const Index = () => {
               className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto animate-fade-up"
               style={{ animationDelay: "0.3s" }}
             >
-              Descubra a receita natural que pode ajudar seu intestino a{" "}
+              Descubra a bebida natural que pode ajudar seu intestino a{" "}
               <span className="text-foreground font-medium">"acordar" de forma suave</span>, sem depender de
               remédios agressivos ou laxantes.
             </p>
