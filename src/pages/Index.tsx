@@ -96,7 +96,7 @@ const Index = () => {
               className="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-fade-up"
               style={{ animationDelay: "0.2s" }}
             >
-              Quando ir ao banheiro vira um{" "}
+              Quando ir a casa de banho vira um{" "}
               <span className="text-gradient">sofrimento diário</span>...
             </h1>
 
