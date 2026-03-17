@@ -5,7 +5,7 @@ import heroPain from "@/assets/hero-pain.jpg";
 import { useState } from "react";
 
 // Link do seu checkout
-const CHECKOUT_URL = "https://pay.kiwify.com/L2IoYGA";
+const CHECKOUT_URL = "https://pay.kuenha.com/08cb707f-feeb-4eb5-ac37-7e064841d384";
 
 const CTAButton = ({
   children,
@@ -404,8 +404,8 @@ const Index = () => {
               <p className="text-muted-foreground mb-4">Receita natural + Modo de preparo + Dicas de uso + Bônus</p>
 
               <div className="mb-6 flex items-center justify-center gap-3">
-                <span className="text-xl text-muted-foreground line-through">24,90€</span>
-                <span className="text-3xl md:text-4xl font-bold text-accent">9,72€</span>
+                <span className="text-xl text-muted-foreground line-through">697MZN</span>
+                <span className="text-3xl md:text-4xl font-bold text-accent">297MZN</span>
               </div>
 
               <CTAButton className="w-full" href={CHECKOUT_URL}>
