@@ -96,28 +96,33 @@ const Index = () => {
               className="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-fade-up"
               style={{ animationDelay: "0.2s" }}
             >
-              Quando ir a casa de banho vira um{" "}
-              <span className="text-gradient">sofrimento diário</span>...
+              Há dias que não consegue evacuar?{" "}
+              <span className="text-gradient">Sente o corpo pesado, inchado e sem alívio?</span>
             </h1>
 
             <p
               className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto animate-fade-up"
               style={{ animationDelay: "0.3s" }}
             >
-              Descubra a bebida natural que pode ajudar seu intestino a{" "}
-              <span className="text-foreground font-medium">"acordar" de forma suave</span>, sem depender de
-              remédios agressivos ou laxantes.
+              Assista ao vídeo e descubra o drink natural que está ajudando centenas de pessoas a{" "}
+              <span className="text-foreground font-medium">libertar o intestino</span> — sem laxantes, sem cólicas, sem sofrimento.
             </p>
+
+            {/* Container da VSL */}
+            <div className="w-full max-w-3xl mx-auto animate-fade-up" style={{ animationDelay: "0.35s" }}>
+              <div className="relative w-full aspect-video bg-black/80 rounded-2xl overflow-hidden shadow-2xl border border-border/30">
+                {/* COLE AQUI O EMBED DA SUA VSL */}
+                <div className="absolute inset-0 flex items-center justify-center text-muted-foreground">
+                  <p className="text-lg">🎬 Carregando vídeo...</p>
+                </div>
+              </div>
+            </div>
 
             <div className="pt-6 animate-fade-up" style={{ animationDelay: "0.4s" }}>
               <CTAButton onClick={() => document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" })}>
                 Quero Aprender a Receita Agora
               </CTAButton>
               <p className="mt-4 text-sm text-muted-foreground">Acesso imediato após confirmação</p>
-            </div>
-
-            <div className="pt-12 animate-fade-up" style={{ animationDelay: "0.5s" }}>
-              <ArrowDown className="w-8 h-8 text-primary mx-auto animate-bounce" />
             </div>
           </div>
         </div>
