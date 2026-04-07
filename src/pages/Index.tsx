@@ -50,11 +50,11 @@ const Index = () => {
 
             {/* Container da VSL */}
             <div className="w-full max-w-3xl mx-auto animate-fade-up" style={{ animationDelay: "0.35s" }}>
-              <div className="relative w-full aspect-video bg-black/80 rounded-2xl overflow-hidden shadow-2xl border border-border/30">
-                {/* COLE AQUI O EMBED DA SUA VSL */}
-                <div className="absolute inset-0 flex items-center justify-center text-muted-foreground">
-                  <p className="text-lg">🎬 Carregando vídeo...</p>
-                </div>
+              <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl border border-border/30">
+                <div
+                  id="vid-69d4d23d49922114cb896c2a"
+                  style={{ display: "block", margin: "0 auto", width: "100%" }}
+                />
               </div>
             </div>
           </div>
