@@ -108,26 +108,6 @@ const Index = () => {
               <span className="text-foreground font-medium">libertar o intestino</span> — sem laxantes, sem cólicas, sem sofrimento.
             </p>
 
-            {/* Container da VSL */}
-            <div className="w-full max-w-3xl mx-auto animate-fade-up" style={{ animationDelay: "0.35s" }}>
-              <div className="relative w-full aspect-video bg-black/80 rounded-2xl overflow-hidden shadow-2xl border border-border/30">
-                {/* COLE AQUI O EMBED DA SUA VSL */}
-                <div className="absolute inset-0 flex items-center justify-center text-muted-foreground">
-                  <p className="text-lg">🎬 Carregando vídeo...</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="pt-6 animate-fade-up" style={{ animationDelay: "0.4s" }}>
-              <CTAButton onClick={() => document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" })}>
-                Quero Aprender a Receita Agora
-              </CTAButton>
-              <p className="mt-4 text-sm text-muted-foreground">Acesso imediato após confirmação</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Pain Identification Section */}
       <section className="py-20 md:py-28 bg-secondary/20">
         <div className="container">
