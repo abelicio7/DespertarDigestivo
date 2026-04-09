@@ -5,7 +5,7 @@ import heroPain from "@/assets/hero-pain.jpg";
 import { useState } from "react";
 
 // Link do seu checkout
-const CHECKOUT_URL = "https://checkout-despertardigestivo.vercel.app/";
+const CHECKOUT_URL = "https://pay.zenofy.io/p/despertardigestivo";
 
 const CTAButton = ({
   children,
@@ -390,7 +390,7 @@ const Index = () => {
 
               <div className="mb-6 flex items-center justify-center gap-3">
                 <span className="text-xl text-muted-foreground line-through">497MZN</span>
-                <span className="text-3xl md:text-4xl font-bold text-accent">197MZN</span>
+                <span className="text-3xl md:text-4xl font-bold text-accent">247MZN</span>
               </div>
 
               <CTAButton className="w-full" href={CHECKOUT_URL}>
