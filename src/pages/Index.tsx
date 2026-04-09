@@ -100,13 +100,17 @@ const Index = () => {
               <span className="text-gradient">Sente o corpo pesado, inchado e sem alívio?</span>
             </h1>
 
-            <p
-              className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto animate-fade-up"
-              style={{ animationDelay: "0.3s" }}
-            >
-              Descubra a receita natural que está ajudando centenas de pessoas a{" "}
-              <span className="text-foreground font-medium">libertar o intestino</span> — sem laxantes, sem cólicas, sem sofrimento.
-            </p>
+           <p
+  className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto animate-fade-up"
+  style={{ animationDelay: "0.3s" }}
+>
+  Descubra a receita natural que está ajudando centenas de pessoas a{" "}
+  <span className="text-foreground font-medium">libertar o intestino</span> — sem laxantes, sem cólicas, sem sofrimento.
+</p>
+
+          </div>
+        </div>
+      </section>
 
       {/* Pain Identification Section */}
       <section className="py-20 md:py-28 bg-secondary/20">
