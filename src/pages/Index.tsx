@@ -104,7 +104,7 @@ const Index = () => {
               className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto animate-fade-up"
               style={{ animationDelay: "0.3s" }}
             >
-              Assista ao vídeo e descubra o drink natural que está ajudando centenas de pessoas a{" "}
+              Descubra a receita natural que está ajudando centenas de pessoas a{" "}
               <span className="text-foreground font-medium">libertar o intestino</span> — sem laxantes, sem cólicas, sem sofrimento.
             </p>
 
